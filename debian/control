@@ -1,0 +1,38 @@
+Source: ubuntusway-artwork
+Section: x11
+Priority: optional
+Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
+Build-Depends: debhelper-compat (= 13), intltool
+Standards-Version: 4.5.1
+Homepage: <insert the upstream URL, if relevant>
+Rules-Requires-Root: no
+
+Package: ubuntusway-artwork
+Architecture: any
+Depends: ${misc:Depends}
+Description: artwork for Ubuntu Sway
+ Artwork for Ubuntu Sway which contains the default wallpaper and default theming.
+ 
+Package: plymouth-theme-ubuntusway-logo
+Architecture: all
+Depends: plymouth (>= 0.9.2-3ubuntu1~),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Provides: plymouth-theme
+Replaces: plymouth (<< 0.8.1-1~)
+Description: plymouth theme for Ubuntu Sway
+ This package contains a Ubuntu Sway theme for Plymouth, which displays the
+ Ubuntu Sway logo on boot.
+ 
+Package: plymouth-theme-ubuntusway-text
+Architecture: all
+Depends: plymouth (>= 0.9.2-3ubuntu1~),
+         plymouth-label,
+         plymouth-theme-ubuntu-text,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Provides: plymouth-theme
+Replaces: plymouth (<< 0.8.1-1~)
+Description: plymouth text theme for Ubuntu Sway
+ This package contains a Ubuntu Sway theme for Plymouth, which displays some
+ simple text on boot.

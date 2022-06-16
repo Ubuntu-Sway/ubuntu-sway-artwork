@@ -1,0 +1,11 @@
+[Plymouth Theme]
+Name=Ubuntu Sway Text
+Description=Text mode theme based on kubuntu-logo theme
+ModuleName=ubuntu-text
+
+[ubuntu-text]
+title=Ubuntu Sway Remix 22.04 LTS
+black=0x0078C2
+white=0xffffff
+brown=0x009DFD
+blue=0x00182C 

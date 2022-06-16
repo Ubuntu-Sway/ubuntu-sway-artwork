@@ -1,0 +1,5 @@
+ubuntusway-artwork (1.0-1~jammy) jammy; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 17 Jun 2022 00:30:55 +0400
