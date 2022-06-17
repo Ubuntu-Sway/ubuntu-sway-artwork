@@ -5,4 +5,4 @@ ModuleName=script
 
 [script]
 ImageDir=/usr/share/plymouth/themes/ubuntusway-logo
-ScriptFile=/usr/share/plymouth/themes/ubuntusway-logo/ubuntusway-spinner-logo.script
+ScriptFile=/usr/share/plymouth/themes/ubuntusway-logo/ubuntusway-logo.script
