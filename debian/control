@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
 Build-Depends: debhelper-compat (= 13), intltool
 Standards-Version: 4.5.1
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/Ubuntu-Sway/ubuntusway-artwork
 Rules-Requires-Root: no
 
 Package: ubuntusway-artwork
@@ -16,6 +16,8 @@ Description: artwork for Ubuntu Sway
 Package: plymouth-theme-ubuntusway-logo
 Architecture: all
 Depends: plymouth (>= 0.9.2-3ubuntu1~),
+         plymouth-label,
+         plymouth-themes,
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: plymouth-theme
