@@ -9,7 +9,7 @@ Rules-Requires-Root: no
 
 Package: ubuntusway-artwork
 Architecture: any
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, qt5-style-kvantum, yaru-theme-gtk, yaru-theme-icon
 Description: artwork for Ubuntu Sway
  Artwork for Ubuntu Sway which contains the default wallpaper and default theming.
  

@@ -1,4 +1,10 @@
-ubuntusway-artwork (1.0-1~jammy) jammy; urgency=medium
+ubuntusway-artwork (1.1~jammy) jammy; urgency=medium
+
+  * Fix errors in Plymouth, change dependencies
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 21 Jun 2022 21:22:56 +0400
+
+ubuntusway-artwork (1.0~jammy) jammy; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
