@@ -38,3 +38,10 @@ Replaces: plymouth (<< 0.8.1-1~)
 Description: plymouth text theme for Ubuntu Sway
  This package contains a Ubuntu Sway theme for Plymouth, which displays some
  simple text on boot.
+
+Package: ubuntusway-grub-theme
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Theme for Ubuntu Sway grub screen
+ Custom grub theme for Ubuntu Sway. Inspired from
+ Lubuntu theme.

@@ -1,3 +1,9 @@
+ubuntusway-artwork (1.2~jammy) jammy; urgency=medium
+
+  * Add grub theme
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 28 Jun 2022 23:15:10 +0400
+
 ubuntusway-artwork (1.1~jammy) jammy; urgency=medium
 
   * Fix errors in Plymouth, change dependencies
