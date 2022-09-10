@@ -209,10 +209,11 @@ text.margin.bottom=2
 
 [IndicatorSpinBox]
 inherits=PanelButtonCommand
-frame.element=btn
-frame.expandedElement=button
-interior.element=button
-indicator.element=iarrow
+frame.element=spinbox
+frame.expandedElement=espinbox
+frame.left=1
+interior.element=spinbox
+indicator.element=spin
 indicator.size=10
 text.normal.color=white
 frame.expansion=14
