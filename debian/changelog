@@ -1,3 +1,9 @@
+ubuntusway-artwork (1.5~jammy) jammy; urgency=medium
+
+  * Fix invisible spinbox items
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 10 Sep 2022 16:41:16 +0400
+
 ubuntusway-artwork (1.4~jammy) jammy; urgency=medium
 
   * Remove icon
