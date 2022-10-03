@@ -1,3 +1,9 @@
+ubuntusway-artwork (1.7~kinetic) kinetic; urgency=medium
+
+  * Add Kudu wallpapers
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 03 Oct 2022 17:20:41 +0400
+
 ubuntusway-artwork (1.6~kinetic) kinetic; urgency=medium
 
   * Fix invisible spinbox items
