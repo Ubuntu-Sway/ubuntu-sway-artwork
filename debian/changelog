@@ -1,3 +1,15 @@
+ubuntusway-artwork (1.11~kinetic) kinetic; urgency=medium
+
+  * Set $gui-font and $term-font fonts variables
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 10 Oct 2022 23:29:15 +0400
+
+ubuntusway-artwork (1.10~kinetic) kinetic; urgency=medium
+
+  * Set text color
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 10 Oct 2022 17:05:50 +0400
+
 ubuntusway-artwork (1.9~kinetic) kinetic; urgency=medium
 
   * Fix build
