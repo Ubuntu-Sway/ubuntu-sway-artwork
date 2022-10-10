@@ -25,6 +25,7 @@ set $color15 #8a553f
 # Colors with alpha
 set $background-color $color0
 set $accent-color $color12
+set $text-color $color6
 
 # Basic color configuration using the Base16 variables for windows and borders.
 # Property Name         Border  BG      Text    Indicator Child Border
