@@ -1,3 +1,9 @@
+ubuntusway-artwork (1.12~kinetic) kinetic; urgency=medium
+
+  * Fix invisible indicators
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 11 Oct 2022 22:59:02 +0400
+
 ubuntusway-artwork (1.11~kinetic) kinetic; urgency=medium
 
   * Set $gui-font and $term-font fonts variables
