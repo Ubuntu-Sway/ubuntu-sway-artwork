@@ -1,3 +1,9 @@
+ubuntusway-artwork (1.13~kinetic) kinetic; urgency=medium
+
+  * Add new wallpapers
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 17 Oct 2022 19:26:50 +0400
+
 ubuntusway-artwork (1.12~kinetic) kinetic; urgency=medium
 
   * Fix invisible indicators
