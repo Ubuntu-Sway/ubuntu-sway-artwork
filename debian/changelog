@@ -1,3 +1,10 @@
+ubuntusway-artwork (1.16~lunar) lunar; urgency=medium
+
+  * Add Lunar Lobster wallpaper (Ubuntu Sway version)
+  * Fix path
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 14 Feb 2023 16:05:50 +0400
+
 ubuntusway-artwork (1.15~lunar) lunar; urgency=medium
 
   * Add Lunar Lobster wallpaper (Ubuntu Sway version)
