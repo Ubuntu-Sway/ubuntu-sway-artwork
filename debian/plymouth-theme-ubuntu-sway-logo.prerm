@@ -30,7 +30,7 @@
 case "$1" in
     remove)
 	update-alternatives \
-		--remove text.plymouth /usr/share/plymouth/themes/ubuntusway-text/ubuntusway-text.plymouth
+		--remove default.plymouth /usr/share/plymouth/themes/ubuntu-sway-logo/ubuntu-sway-logo.plymouth
 
 	if which update-initramfs >/dev/null 2>&1
 	then

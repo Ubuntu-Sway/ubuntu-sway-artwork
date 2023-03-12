@@ -4,7 +4,7 @@ case "$1" in
     configure)
 	update-alternatives \
 		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
-		/usr/share/plymouth/themes/ubuntusway-logo/ubuntusway-logo.plymouth 150
+		/usr/share/plymouth/themes/ubuntu-sway-logo/ubuntu-sway-logo.plymouth 150
 
 	if which update-initramfs >/dev/null 2>&1
 	then

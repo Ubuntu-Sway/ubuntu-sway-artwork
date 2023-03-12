@@ -1,19 +1,21 @@
-Source: ubuntusway-artwork
+Source: ubuntu-sway-artwork
 Section: x11
 Priority: optional
 Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
 Build-Depends: debhelper-compat (= 13), intltool
 Standards-Version: 4.5.1
-Homepage: https://github.com/Ubuntu-Sway/ubuntusway-artwork
+Homepage: https://github.com/Ubuntu-Sway/ubuntu-sway-artwork
 Rules-Requires-Root: no
 
-Package: ubuntusway-artwork
+Package: ubuntu-sway-artwork
 Architecture: any
 Depends: ${misc:Depends}, qt5-style-kvantum, yaru-theme-gtk, yaru-theme-icon
+Conflicts: ubuntusway-artwork
+Replaces: ubuntusway-artwork
 Description: artwork for Ubuntu Sway
  Artwork for Ubuntu Sway which contains the default wallpaper and default theming.
  
-Package: plymouth-theme-ubuntusway-logo
+Package: plymouth-theme-ubuntu-sway-logo
 Architecture: all
 Depends: plymouth (>= 0.9.2-3ubuntu1~),
          plymouth-label,
@@ -21,12 +23,13 @@ Depends: plymouth (>= 0.9.2-3ubuntu1~),
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: plymouth-theme
-Replaces: plymouth (<< 0.8.1-1~)
+Conflicts: plymouth-theme-ubuntusway-logo
+Replaces: plymouth (<< 0.8.1-1~), plymouth-theme-ubuntusway-logo
 Description: plymouth theme for Ubuntu Sway
  This package contains a Ubuntu Sway theme for Plymouth, which displays the
  Ubuntu Sway logo on boot.
  
-Package: plymouth-theme-ubuntusway-text
+Package: plymouth-theme-ubuntu-sway-text
 Architecture: all
 Depends: plymouth (>= 0.9.2-3ubuntu1~),
          plymouth-label,
@@ -34,14 +37,17 @@ Depends: plymouth (>= 0.9.2-3ubuntu1~),
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: plymouth-theme
-Replaces: plymouth (<< 0.8.1-1~)
+Conflicts: plymouth-theme-ubuntusway-text
+Replaces: plymouth (<< 0.8.1-1~), plymouth-theme-ubuntusway-text
 Description: plymouth text theme for Ubuntu Sway
  This package contains a Ubuntu Sway theme for Plymouth, which displays some
  simple text on boot.
 
-Package: ubuntusway-grub-theme
+Package: ubuntu-sway-grub-theme
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Conflicts: ubuntusway-grub-theme
+Replaces: ubuntusway-grub-theme
 Description: Theme for Ubuntu Sway grub screen
  Custom grub theme for Ubuntu Sway. Inspired from
  Lubuntu theme.
