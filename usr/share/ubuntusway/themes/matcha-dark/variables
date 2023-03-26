@@ -7,6 +7,9 @@ default_border pixel 2
 smart_borders on
 gaps inner 6
 
+# Tittle bar font
+font pango:Ubuntu 11
+
 set $color0  #141a1b
 set $color1  #282a2b
 set $color2  #3B758C
@@ -35,7 +38,7 @@ set $gui-font Ubuntu 11
 
 # Basic color configuration using the Base16 variables for windows and borders.
 # Property Name         Border  BG       Text    Indicator Child Border
-client.focused          $color5 $color12 $color0 $color6   $color12
+client.focused          $color5 $color12 $color7 $color6   $color12
 client.focused_inactive $color1 $color1  $color5 $color3   $color1
 client.unfocused        $color1 $color0  $color5 $color6   $color1
 client.urgent           $color8 $color8  $color0 $color9   $color8
