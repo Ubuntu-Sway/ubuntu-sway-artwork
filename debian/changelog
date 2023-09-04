@@ -1,3 +1,9 @@
+ubuntu-sway-artwork (1.21~mantic) mantic; urgency=medium
+
+  * Restructurize package
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 04 Sep 2023 17:31:33 +0400
+
 ubuntu-sway-artwork (1.20~mantic) mantic; urgency=medium
 
   * Use new development wallpaper

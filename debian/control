@@ -9,11 +9,24 @@ Rules-Requires-Root: no
 
 Package: ubuntu-sway-artwork
 Architecture: any
-Depends: ${misc:Depends}, qt5-style-kvantum, yaru-theme-gtk, yaru-theme-icon
+Section: metapackages
+Depends: ${misc:Depends}, ubuntu-sway-themes, ubuntu-sway-wallpapers
 Conflicts: ubuntusway-artwork
 Replaces: ubuntusway-artwork
-Description: artwork for Ubuntu Sway
- Artwork for Ubuntu Sway which contains the default wallpaper and default theming.
+Description: Ubuntu Sway themes and artwork
+ This is a metapackage.
+
+Package: ubuntu-sway-wallpapers
+Architecture: any
+Depends: ${misc:Depends}, ubuntu-wallpapers
+Description: wallpapers for Ubuntu Sway
+ This package provides the default wallpaper for Ubuntu Sway desktop.
+
+Package: ubuntu-sway-themes
+Architecture: any
+Depends: ${misc:Depends}, qt5-style-kvantum, yaru-theme-gtk, yaru-theme-icon
+Description: themes and color schemes for Ubuntu Sway desktop
+ This package contains the default theming for Ubuntu Sway.
  
 Package: plymouth-theme-ubuntu-sway-logo
 Architecture: all
