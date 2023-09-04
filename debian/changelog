@@ -1,3 +1,9 @@
+ubuntu-sway-artwork (1.20~mantic) mantic; urgency=medium
+
+  * Use new development wallpaper
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 04 Sep 2023 12:50:20 +0400
+
 ubuntu-sway-artwork (1.19~lunar) lunar; urgency=medium
 
   * Update wallpaper
