@@ -1,3 +1,9 @@
+ubuntu-sway-artwork (1.23~noble) noble; urgency=medium
+
+  * Initial upload to Noble
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 14 Feb 2024 16:09:41 +0400
+
 ubuntu-sway-artwork (1.22~mantic) mantic; urgency=medium
 
   * Update wallpaper
