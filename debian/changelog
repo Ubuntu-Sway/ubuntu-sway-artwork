@@ -1,3 +1,9 @@
+ubuntu-sway-artwork (25.04.2~plucky) plucky; urgency=medium
+
+  * Update Plymouth theme
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 30 Apr 2025 23:28:08 +0400
+
 ubuntu-sway-artwork (25.04.1~plucky) plucky; urgency=medium
 
   * Update wallpaper for Plucky Puffin
