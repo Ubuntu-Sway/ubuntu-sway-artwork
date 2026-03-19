@@ -1,3 +1,9 @@
+ubuntu-sway-artwork (26.04.1~resolute) resolute; urgency=medium
+
+  * Update wallpaper for Resolute
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 19 Mar 2026 21:47:58 +0400
+
 ubuntu-sway-artwork (25.10.1~questing) questing; urgency=medium
 
   * Update wallpaper for Questing
